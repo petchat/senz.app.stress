@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgn-IN-gmC" customClass="CircleProgressView">
+                                <rect key="frame" x="150" y="170" width="300" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmB-aa-MBt">
+                                        <rect key="frame" x="114" y="132" width="71" height="36"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="nmB-aa-MBt" firstAttribute="centerX" secondItem="dgn-IN-gmC" secondAttribute="centerX" id="TQs-11-V9G"/>
+                                    <constraint firstAttribute="width" constant="300" id="XQO-ZZ-LAW"/>
+                                    <constraint firstAttribute="height" constant="300" id="XeJ-Db-CTU"/>
+                                    <constraint firstItem="nmB-aa-MBt" firstAttribute="centerY" secondItem="dgn-IN-gmC" secondAttribute="centerY" id="fCT-kO-AX5"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhw-jY-fpJ">
+                                <rect key="frame" x="260" y="490" width="80" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Rja-tu-lXS"/>
+                                    <constraint firstAttribute="width" constant="80" id="UV1-EV-rRG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="播放正念">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playMusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6BE-H1-DJ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkc-3Y-0cu">
+                                <rect key="frame" x="260" y="490" width="80" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gDW-td-1RV"/>
+                                    <constraint firstAttribute="width" constant="80" id="uwv-on-slN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="测量压力">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="measureStress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="frD-JC-Ggn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将您的指尖轻轻地放在相机镜头和闪光灯上，使其完全盖住镜头。" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCp-oj-aOI">
+                                <rect key="frame" x="215" y="500" width="170" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="JIa-vi-lab"/>
+                                    <constraint firstAttribute="height" constant="100" id="x4n-es-rmp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zkc-3Y-0cu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4uM-Hb-7ap"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xhw-jY-fpJ" secondAttribute="bottom" constant="80" id="9ot-az-Iih"/>
+                            <constraint firstItem="Xhw-jY-fpJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLH-a7-3Ji"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zkc-3Y-0cu" secondAttribute="bottom" constant="80" id="Fwy-c4-e49"/>
+                            <constraint firstItem="dgn-IN-gmC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIl-Pz-INX"/>
+                            <constraint firstItem="uCp-oj-aOI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8K-V3-482"/>
+                            <constraint firstItem="uCp-oj-aOI" firstAttribute="top" secondItem="dgn-IN-gmC" secondAttribute="bottom" constant="30" id="Xh6-8P-Tpy"/>
+                            <constraint firstItem="dgn-IN-gmC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="ar0-xg-3HJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circleProgressView" destination="dgn-IN-gmC" id="etM-T8-GUB"/>
+                        <outlet property="guideLabel" destination="uCp-oj-aOI" id="3uk-Ne-Qh0"/>
+                        <outlet property="measureBtn" destination="zkc-3Y-0cu" id="T5U-Dc-aOl"/>
+                        <outlet property="playBtn" destination="Xhw-jY-fpJ" id="nUA-67-n3C"/>
+                        <outlet property="stressNum" destination="nmB-aa-MBt" id="LlZ-5I-SjW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="339"/>
+        </scene>
+    </scenes>
+</document>

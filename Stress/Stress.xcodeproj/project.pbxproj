@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5FB57DB568DC88B04A20A3 /* libPods-Stress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70723F937E8B1707FDA754B9 /* libPods-Stress.a */; };
+		DC715B021C3C019C00C34866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B011C3C019C00C34866 /* main.m */; };
+		DC715B051C3C019C00C34866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B041C3C019C00C34866 /* AppDelegate.m */; };
+		DC715B081C3C019C00C34866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B071C3C019C00C34866 /* ViewController.m */; };
+		DC715B0B1C3C019C00C34866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC715B091C3C019C00C34866 /* Main.storyboard */; };
+		DC715B0D1C3C019C00C34866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC715B0C1C3C019C00C34866 /* Assets.xcassets */; };
+		DC715B101C3C019C00C34866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC715B0E1C3C019C00C34866 /* LaunchScreen.storyboard */; };
+		DC715B1B1C3C019C00C34866 /* StressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B1A1C3C019C00C34866 /* StressTests.m */; };
+		DC715B261C3C019C00C34866 /* StressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B251C3C019C00C34866 /* StressUITests.m */; };
+		DC715B4A1C3CD20600C34866 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B491C3CD20600C34866 /* QuartzCore.framework */; };
+		DC715B4C1C3CD20D00C34866 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B4B1C3CD20D00C34866 /* AVFoundation.framework */; };
+		DC715B4E1C3CD21400C34866 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B4D1C3CD21400C34866 /* OpenGLES.framework */; };
+		DC715B501C3CD22300C34866 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B4F1C3CD22300C34866 /* CoreAudio.framework */; };
+		DC715B521C3CD22D00C34866 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B511C3CD22D00C34866 /* CoreMedia.framework */; };
+		DC715B541C3CD23300C34866 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B531C3CD23300C34866 /* CoreImage.framework */; };
+		DC715B561C3CD29A00C34866 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC715B551C3CD29A00C34866 /* GPUImage.framework */; };
+		DC715B5C1C3CD36800C34866 /* MonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B5B1C3CD36800C34866 /* MonitorController.m */; };
+		DC715B621C3E6A2400C34866 /* CircleShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B611C3E6A2400C34866 /* CircleShapeLayer.m */; };
+		DC715B651C3E6A4E00C34866 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B641C3E6A4E00C34866 /* CircleProgressView.m */; };
+		DC715B681C3E7C6700C34866 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = DC715B671C3E7C6700C34866 /* Session.m */; };
+		DCECBD181C42A2390039796A /* demo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCECBD131C42A2390039796A /* demo1.mp3 */; };
+		DCECBD191C42A2390039796A /* demo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCECBD141C42A2390039796A /* demo2.mp3 */; };
+		DCECBD1A1C42A2390039796A /* demo3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCECBD151C42A2390039796A /* demo3.mp3 */; };
+		DCECBD1B1C42A2390039796A /* demo4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCECBD161C42A2390039796A /* demo4.mp3 */; };
+		DCECBD1C1C42A2390039796A /* demo5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCECBD171C42A2390039796A /* demo5.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC715B171C3C019C00C34866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC715AF51C3C019C00C34866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC715AFC1C3C019C00C34866;
+			remoteInfo = Stress;
+		};
+		DC715B221C3C019C00C34866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC715AF51C3C019C00C34866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC715AFC1C3C019C00C34866;
+			remoteInfo = Stress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70723F937E8B1707FDA754B9 /* libPods-Stress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB9A9F5E45F349E50B569B4 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
+		DBA9E06863237B9E55B8E553 /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stress/Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
+		DC715AFD1C3C019C00C34866 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC715B011C3C019C00C34866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC715B031C3C019C00C34866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC715B041C3C019C00C34866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC715B061C3C019C00C34866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC715B071C3C019C00C34866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC715B0A1C3C019C00C34866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC715B0C1C3C019C00C34866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC715B0F1C3C019C00C34866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC715B111C3C019C00C34866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC715B161C3C019C00C34866 /* StressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC715B1A1C3C019C00C34866 /* StressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StressTests.m; sourceTree = "<group>"; };
+		DC715B1C1C3C019C00C34866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC715B211C3C019C00C34866 /* StressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC715B251C3C019C00C34866 /* StressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StressUITests.m; sourceTree = "<group>"; };
+		DC715B271C3C019C00C34866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC715B491C3CD20600C34866 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC715B4B1C3CD20D00C34866 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC715B4D1C3CD21400C34866 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DC715B4F1C3CD22300C34866 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DC715B511C3CD22D00C34866 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DC715B531C3CD23300C34866 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DC715B551C3CD29A00C34866 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Stress/GPUImage.framework; sourceTree = "<group>"; };
+		DC715B5A1C3CD36800C34866 /* MonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorController.h; sourceTree = "<group>"; };
+		DC715B5B1C3CD36800C34866 /* MonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorController.m; sourceTree = "<group>"; };
+		DC715B601C3E6A2400C34866 /* CircleShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleShapeLayer.h; sourceTree = "<group>"; };
+		DC715B611C3E6A2400C34866 /* CircleShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleShapeLayer.m; sourceTree = "<group>"; };
+		DC715B631C3E6A4E00C34866 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		DC715B641C3E6A4E00C34866 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		DC715B661C3E7C6700C34866 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		DC715B671C3E7C6700C34866 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		DCECBD131C42A2390039796A /* demo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo1.mp3; sourceTree = "<group>"; };
+		DCECBD141C42A2390039796A /* demo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo2.mp3; sourceTree = "<group>"; };
+		DCECBD151C42A2390039796A /* demo3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo3.mp3; sourceTree = "<group>"; };
+		DCECBD161C42A2390039796A /* demo4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo4.mp3; sourceTree = "<group>"; };
+		DCECBD171C42A2390039796A /* demo5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo5.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC715AFA1C3C019C00C34866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC715B561C3CD29A00C34866 /* GPUImage.framework in Frameworks */,
+				DC715B541C3CD23300C34866 /* CoreImage.framework in Frameworks */,
+				DC715B521C3CD22D00C34866 /* CoreMedia.framework in Frameworks */,
+				DC715B501C3CD22300C34866 /* CoreAudio.framework in Frameworks */,
+				DC715B4E1C3CD21400C34866 /* OpenGLES.framework in Frameworks */,
+				DC715B4C1C3CD20D00C34866 /* AVFoundation.framework in Frameworks */,
+				DC715B4A1C3CD20600C34866 /* QuartzCore.framework in Frameworks */,
+				0E5FB57DB568DC88B04A20A3 /* libPods-Stress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B131C3C019C00C34866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B1E1C3C019C00C34866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5392D178F0E15244AE45EA38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBA9E06863237B9E55B8E553 /* Pods-Stress.debug.xcconfig */,
+				CBB9A9F5E45F349E50B569B4 /* Pods-Stress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84D5553A91F7CFD02509532D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC715B551C3CD29A00C34866 /* GPUImage.framework */,
+				DC715B531C3CD23300C34866 /* CoreImage.framework */,
+				DC715B511C3CD22D00C34866 /* CoreMedia.framework */,
+				DC715B4F1C3CD22300C34866 /* CoreAudio.framework */,
+				DC715B4D1C3CD21400C34866 /* OpenGLES.framework */,
+				DC715B4B1C3CD20D00C34866 /* AVFoundation.framework */,
+				DC715B491C3CD20600C34866 /* QuartzCore.framework */,
+				70723F937E8B1707FDA754B9 /* libPods-Stress.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC715AF41C3C019C00C34866 = {
+			isa = PBXGroup;
+			children = (
+				DC715AFF1C3C019C00C34866 /* Stress */,
+				DC715B191C3C019C00C34866 /* StressTests */,
+				DC715B241C3C019C00C34866 /* StressUITests */,
+				DC715AFE1C3C019C00C34866 /* Products */,
+				5392D178F0E15244AE45EA38 /* Pods */,
+				84D5553A91F7CFD02509532D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC715AFE1C3C019C00C34866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC715AFD1C3C019C00C34866 /* Stress.app */,
+				DC715B161C3C019C00C34866 /* StressTests.xctest */,
+				DC715B211C3C019C00C34866 /* StressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC715AFF1C3C019C00C34866 /* Stress */ = {
+			isa = PBXGroup;
+			children = (
+				DC715B031C3C019C00C34866 /* AppDelegate.h */,
+				DC715B041C3C019C00C34866 /* AppDelegate.m */,
+				DC715B661C3E7C6700C34866 /* Session.h */,
+				DC715B671C3E7C6700C34866 /* Session.m */,
+				DC715B601C3E6A2400C34866 /* CircleShapeLayer.h */,
+				DC715B611C3E6A2400C34866 /* CircleShapeLayer.m */,
+				DC715B631C3E6A4E00C34866 /* CircleProgressView.h */,
+				DC715B641C3E6A4E00C34866 /* CircleProgressView.m */,
+				DC715B5A1C3CD36800C34866 /* MonitorController.h */,
+				DC715B5B1C3CD36800C34866 /* MonitorController.m */,
+				DC715B061C3C019C00C34866 /* ViewController.h */,
+				DC715B071C3C019C00C34866 /* ViewController.m */,
+				DC715B091C3C019C00C34866 /* Main.storyboard */,
+				DC715B0C1C3C019C00C34866 /* Assets.xcassets */,
+				DC715B0E1C3C019C00C34866 /* LaunchScreen.storyboard */,
+				DC715B111C3C019C00C34866 /* Info.plist */,
+				DCECBD121C42A2180039796A /* Sounds */,
+				DC715B001C3C019C00C34866 /* Supporting Files */,
+			);
+			path = Stress;
+			sourceTree = "<group>";
+		};
+		DC715B001C3C019C00C34866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC715B011C3C019C00C34866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC715B191C3C019C00C34866 /* StressTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC715B1A1C3C019C00C34866 /* StressTests.m */,
+				DC715B1C1C3C019C00C34866 /* Info.plist */,
+			);
+			path = StressTests;
+			sourceTree = "<group>";
+		};
+		DC715B241C3C019C00C34866 /* StressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC715B251C3C019C00C34866 /* StressUITests.m */,
+				DC715B271C3C019C00C34866 /* Info.plist */,
+			);
+			path = StressUITests;
+			sourceTree = "<group>";
+		};
+		DCECBD121C42A2180039796A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DCECBD131C42A2390039796A /* demo1.mp3 */,
+				DCECBD141C42A2390039796A /* demo2.mp3 */,
+				DCECBD151C42A2390039796A /* demo3.mp3 */,
+				DCECBD161C42A2390039796A /* demo4.mp3 */,
+				DCECBD171C42A2390039796A /* demo5.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC715AFC1C3C019C00C34866 /* Stress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC715B2A1C3C019C00C34866 /* Build configuration list for PBXNativeTarget "Stress" */;
+			buildPhases = (
+				4A91F594C7DCA3E30081F620 /* Check Pods Manifest.lock */,
+				DC715AF91C3C019C00C34866 /* Sources */,
+				DC715AFA1C3C019C00C34866 /* Frameworks */,
+				DC715AFB1C3C019C00C34866 /* Resources */,
+				19D04722FE858D2DE9CC3F81 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stress;
+			productName = Stress;
+			productReference = DC715AFD1C3C019C00C34866 /* Stress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC715B151C3C019C00C34866 /* StressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC715B2D1C3C019C00C34866 /* Build configuration list for PBXNativeTarget "StressTests" */;
+			buildPhases = (
+				DC715B121C3C019C00C34866 /* Sources */,
+				DC715B131C3C019C00C34866 /* Frameworks */,
+				DC715B141C3C019C00C34866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC715B181C3C019C00C34866 /* PBXTargetDependency */,
+			);
+			name = StressTests;
+			productName = StressTests;
+			productReference = DC715B161C3C019C00C34866 /* StressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC715B201C3C019C00C34866 /* StressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC715B301C3C019C00C34866 /* Build configuration list for PBXNativeTarget "StressUITests" */;
+			buildPhases = (
+				DC715B1D1C3C019C00C34866 /* Sources */,
+				DC715B1E1C3C019C00C34866 /* Frameworks */,
+				DC715B1F1C3C019C00C34866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC715B231C3C019C00C34866 /* PBXTargetDependency */,
+			);
+			name = StressUITests;
+			productName = StressUITests;
+			productReference = DC715B211C3C019C00C34866 /* StressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC715AF51C3C019C00C34866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FLY;
+				TargetAttributes = {
+					DC715AFC1C3C019C00C34866 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = TS3L5T3FT9;
+					};
+					DC715B151C3C019C00C34866 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DC715AFC1C3C019C00C34866;
+					};
+					DC715B201C3C019C00C34866 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DC715AFC1C3C019C00C34866;
+					};
+				};
+			};
+			buildConfigurationList = DC715AF81C3C019C00C34866 /* Build configuration list for PBXProject "Stress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC715AF41C3C019C00C34866;
+			productRefGroup = DC715AFE1C3C019C00C34866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC715AFC1C3C019C00C34866 /* Stress */,
+				DC715B151C3C019C00C34866 /* StressTests */,
+				DC715B201C3C019C00C34866 /* StressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC715AFB1C3C019C00C34866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC715B101C3C019C00C34866 /* LaunchScreen.storyboard in Resources */,
+				DCECBD1C1C42A2390039796A /* demo5.mp3 in Resources */,
+				DCECBD1A1C42A2390039796A /* demo3.mp3 in Resources */,
+				DCECBD181C42A2390039796A /* demo1.mp3 in Resources */,
+				DCECBD191C42A2390039796A /* demo2.mp3 in Resources */,
+				DC715B0D1C3C019C00C34866 /* Assets.xcassets in Resources */,
+				DCECBD1B1C42A2390039796A /* demo4.mp3 in Resources */,
+				DC715B0B1C3C019C00C34866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B141C3C019C00C34866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B1F1C3C019C00C34866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D04722FE858D2DE9CC3F81 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stress/Pods-Stress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A91F594C7DCA3E30081F620 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC715AF91C3C019C00C34866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC715B081C3C019C00C34866 /* ViewController.m in Sources */,
+				DC715B051C3C019C00C34866 /* AppDelegate.m in Sources */,
+				DC715B5C1C3CD36800C34866 /* MonitorController.m in Sources */,
+				DC715B621C3E6A2400C34866 /* CircleShapeLayer.m in Sources */,
+				DC715B021C3C019C00C34866 /* main.m in Sources */,
+				DC715B651C3E6A4E00C34866 /* CircleProgressView.m in Sources */,
+				DC715B681C3E7C6700C34866 /* Session.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B121C3C019C00C34866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC715B1B1C3C019C00C34866 /* StressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC715B1D1C3C019C00C34866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC715B261C3C019C00C34866 /* StressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC715B181C3C019C00C34866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC715AFC1C3C019C00C34866 /* Stress */;
+			targetProxy = DC715B171C3C019C00C34866 /* PBXContainerItemProxy */;
+		};
+		DC715B231C3C019C00C34866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC715AFC1C3C019C00C34866 /* Stress */;
+			targetProxy = DC715B221C3C019C00C34866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC715B091C3C019C00C34866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC715B0A1C3C019C00C34866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC715B0E1C3C019C00C34866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC715B0F1C3C019C00C34866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC715B281C3C019C00C34866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC715B291C3C019C00C34866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC715B2B1C3C019C00C34866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA9E06863237B9E55B8E553 /* Pods-Stress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Stress",
+				);
+				INFOPLIST_FILE = Stress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.Stress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC715B2C1C3C019C00C34866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB9A9F5E45F349E50B569B4 /* Pods-Stress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Stress",
+				);
+				INFOPLIST_FILE = Stress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.Stress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC715B2E1C3C019C00C34866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.StressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress.app/Stress";
+			};
+			name = Debug;
+		};
+		DC715B2F1C3C019C00C34866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.StressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress.app/Stress";
+			};
+			name = Release;
+		};
+		DC715B311C3C019C00C34866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.StressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC715B321C3C019C00C34866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senz.StressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC715AF81C3C019C00C34866 /* Build configuration list for PBXProject "Stress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC715B281C3C019C00C34866 /* Debug */,
+				DC715B291C3C019C00C34866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC715B2A1C3C019C00C34866 /* Build configuration list for PBXNativeTarget "Stress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC715B2B1C3C019C00C34866 /* Debug */,
+				DC715B2C1C3C019C00C34866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC715B2D1C3C019C00C34866 /* Build configuration list for PBXNativeTarget "StressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC715B2E1C3C019C00C34866 /* Debug */,
+				DC715B2F1C3C019C00C34866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC715B301C3C019C00C34866 /* Build configuration list for PBXNativeTarget "StressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC715B311C3C019C00C34866 /* Debug */,
+				DC715B321C3C019C00C34866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC715AF51C3C019C00C34866 /* Project object */;
+}
