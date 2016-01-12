@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A12C2D960A1734E0C1BD19FAB9E7E2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F55B6F606C669AB2732FDE36F15D789 /* AudioToolbox.framework */; };
+		0C6CC63008315E9D400C928C9A820508 /* AFSoundManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BE808BD08C17D987CB306FA7817EFF /* AFSoundManager-dummy.m */; };
+		2BC9AF73CBDAEA8F047C6916D38568AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB56292784EFDBDD0E36D46CFBBF43 /* Foundation.framework */; };
+		2DC22FC74BECA5DB7E691F1D6FABA78B /* AFSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9693E6181465F7B39231B824733DC356 /* AFSoundManager.h */; };
+		47A3D15459D7F4F2BAFD7B42C234BDAC /* AFSoundItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B857A264A4C7773DAF9E59CF894358 /* AFSoundItem.h */; };
+		4B6552A6BFD73165E4F9470BC3BBDDFB /* AFSoundQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1024813D32AF8246FE5E6761FB73A3 /* AFSoundQueue.h */; };
+		565ADC9564DDE9FD646F26FF3A4D5197 /* Pods-Stress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 096551377444D5C74453F8ADF010B03C /* Pods-Stress-dummy.m */; };
+		653EE2EEB88BAC8119F5D8A0C9A695E0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD0CE29BC5EAAEECC675FB76186D583 /* MediaPlayer.framework */; };
+		6998A978FD9F16B7967E189818007D14 /* NSTimer+AFSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B47476144ABF3E67862A7DACD479107B /* NSTimer+AFSoundManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E14C0B7D899597B77FDD0387C04F971 /* AFSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5902922F2DA2962C3AD7BE4B0C10298E /* AFSoundItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7069DB2EAC3B5E7D4A63DC1704BF9823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEB56292784EFDBDD0E36D46CFBBF43 /* Foundation.framework */; };
+		75DCFFA4D9E31A78E3F92FB2C68B3447 /* NSTimer+AFSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D146C15B676193E035BF4A0B9D62A31 /* NSTimer+AFSoundManager.h */; };
+		8E2B4FA60D62F2A13B84E863FB5986DB /* AFSoundRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F4958F4F26E3322EDA1F5E196A6A70 /* AFSoundRecord.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A05880537B29E74F05187A7F16849CB7 /* AFSoundPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBF29C349487C670D7137621FF1D8FB /* AFSoundPlayback.h */; };
+		D206EF03837D351B80FD2124EE355ACD /* AFSoundRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 5255249CDB91ACE4A090CB21CEAB80D2 /* AFSoundRecord.h */; };
+		D73DBDBCA2A79DFF33CC33EC5534AB51 /* AFSoundQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8866174CC8944E681AC512D66B363AF /* AFSoundQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DE028F0F259D5C1235AFE6161BD5EA73 /* AFSoundPlayback.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3AA0A7E6A029B1FF631CDF5B770B11 /* AFSoundPlayback.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F099161D230E66F3BA47188DD21B5225 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CFF608F523C48900E285A9E8D2FD5A /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31E2AED4EB4F9DBFA8296B10CEE2159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6F256DCBD345BA69BBFB5186D533CB;
+			remoteInfo = AFSoundManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027B842B3D06BBF5AC7FD8D06C440003 /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		062744C2B3988A23851E47B281E8AB8D /* Pods-Stress-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stress-resources.sh"; sourceTree = "<group>"; };
+		096551377444D5C74453F8ADF010B03C /* Pods-Stress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stress-dummy.m"; sourceTree = "<group>"; };
+		0C7AE74880F10BC080926419233BE93B /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		0E33F70EAC9778DDD282882712412303 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		14844949F144D8D8015D0425611B7F0E /* libAFSoundManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFSoundManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F773719F66883A8EA742E06333DACB2 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		1FF9E809CE8630D6C4A3CB605193F301 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		25AD2F76AA58FDAAAE3C5938099B0091 /* AFSoundManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFSoundManager.xcconfig; sourceTree = "<group>"; };
+		30F4958F4F26E3322EDA1F5E196A6A70 /* AFSoundRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSoundRecord.m; path = Classes/AFSoundRecord.m; sourceTree = "<group>"; };
+		31596A156C7BC942A3962723B64C5265 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		3FEF930E21C5088AFB0E24A19B7204F0 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		42E713005838ED3781B8F7CBD24280CE /* Pods-Stress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stress.debug.xcconfig"; sourceTree = "<group>"; };
+		44DB81D2B9CC96410BDFC4A4E76F44CF /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		46582AF44DAAFFA4328B8DC398C24327 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		4EBF29C349487C670D7137621FF1D8FB /* AFSoundPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSoundPlayback.h; path = Classes/AFSoundPlayback.h; sourceTree = "<group>"; };
+		5255249CDB91ACE4A090CB21CEAB80D2 /* AFSoundRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSoundRecord.h; path = Classes/AFSoundRecord.h; sourceTree = "<group>"; };
+		52AD75F25D3A5C58844613866F2C1B33 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		5567AA83BC36A49B331E6AD0FD0B21A0 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		5588876E70CA893E25160DD112AF07FA /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		5902922F2DA2962C3AD7BE4B0C10298E /* AFSoundItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSoundItem.m; path = Classes/AFSoundItem.m; sourceTree = "<group>"; };
+		5CE2A7F02A4924E89F5F3508791A6B07 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		5D146C15B676193E035BF4A0B9D62A31 /* NSTimer+AFSoundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+AFSoundManager.h"; path = "Classes/NSTimer+AFSoundManager.h"; sourceTree = "<group>"; };
+		64C21C276044655DE49C49ABE522BDD9 /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+		66E30D7FEFA6CB45BA14CFA271BD25F2 /* Pods-Stress-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stress-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BDAF96EA2669CA0CFBDA081AA9DAFCC /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		6C5B94608441D2FB96A7FC91E5BE12EF /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		6C86DD5A2DBE142A1707FA909A815F8D /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		712DB9237C7F7C3E404B0B564D0EB194 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		71D7E6ACB31D769A9D49D1A1548D8EFB /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		727C80A8DCB1909A21770678D48879FA /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		755C12DABD309FD1772A97AA1AD8D93B /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		78B857A264A4C7773DAF9E59CF894358 /* AFSoundItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSoundItem.h; path = Classes/AFSoundItem.h; sourceTree = "<group>"; };
+		7991E0CBCD3D627039E1C123D9998EE4 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		7DE5C786FBC6B2C827AC9AA89628EB8A /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		7F55347C5636287653F4A1331C2062C0 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		8E3AA0A7E6A029B1FF631CDF5B770B11 /* AFSoundPlayback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSoundPlayback.m; path = Classes/AFSoundPlayback.m; sourceTree = "<group>"; };
+		8F55B6F606C669AB2732FDE36F15D789 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		9693E6181465F7B39231B824733DC356 /* AFSoundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSoundManager.h; path = Classes/AFSoundManager.h; sourceTree = "<group>"; };
+		9818D60C306499CDC056774E7785D012 /* Pods-Stress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stress.release.xcconfig"; sourceTree = "<group>"; };
+		99DF5263CC208BBD2197BD0D3B2C3A56 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		9BD0CE29BC5EAAEECC675FB76186D583 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		9F1024813D32AF8246FE5E6761FB73A3 /* AFSoundQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSoundQueue.h; path = Classes/AFSoundQueue.h; sourceTree = "<group>"; };
+		A0852E37B49C69249EA7C216B7428C5E /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		A197134BC7CB0DC5CB345A47A73504BE /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		A3CFF608F523C48900E285A9E8D2FD5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A4BE808BD08C17D987CB306FA7817EFF /* AFSoundManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFSoundManager-dummy.m"; sourceTree = "<group>"; };
+		B47476144ABF3E67862A7DACD479107B /* NSTimer+AFSoundManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+AFSoundManager.m"; path = "Classes/NSTimer+AFSoundManager.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C44F549EC5B55BB69B3825851096BD88 /* AFSoundManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFSoundManager-prefix.pch"; sourceTree = "<group>"; };
+		C87DE1A55DA719E9296121BDE5D2E4BF /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		CC42AF592025C0D746FD29B50F6398C7 /* libPods-Stress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8866174CC8944E681AC512D66B363AF /* AFSoundQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSoundQueue.m; path = Classes/AFSoundQueue.m; sourceTree = "<group>"; };
+		D8D7C43F063038FDECE97521C93A8467 /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		DBEB56292784EFDBDD0E36D46CFBBF43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5BF6CAE759B0F943D4CE8631C1D4638 /* AFSoundManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AFSoundManager-Private.xcconfig"; sourceTree = "<group>"; };
+		FF1FA304485F6FC7B2BA64B22D81D1A2 /* Pods-Stress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stress-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074F153FBF8CD7244BA5927427A51FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F099161D230E66F3BA47188DD21B5225 /* AVFoundation.framework in Frameworks */,
+				01A12C2D960A1734E0C1BD19FAB9E7E2 /* AudioToolbox.framework in Frameworks */,
+				7069DB2EAC3B5E7D4A63DC1704BF9823 /* Foundation.framework in Frameworks */,
+				653EE2EEB88BAC8119F5D8A0C9A695E0 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410FCBD1C9709C2B8C5DBB40DC71E583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC9AF73CBDAEA8F047C6916D38568AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2345A5C19C5B44D4621BF2236CF04185 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2345A5C19C5B44D4621BF2236CF04185 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFF608F523C48900E285A9E8D2FD5A /* AVFoundation.framework */,
+				8F55B6F606C669AB2732FDE36F15D789 /* AudioToolbox.framework */,
+				DBEB56292784EFDBDD0E36D46CFBBF43 /* Foundation.framework */,
+				9BD0CE29BC5EAAEECC675FB76186D583 /* MediaPlayer.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F480A364A4640A7E8AF425A816971AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				616AA747B0A7E086F0DA9BD1C0FE0289 /* Pods-Stress */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F8B9A53AC7F6D4265503145BE28B3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B85B7785037F69B097D4B6AF5A9EB0A7 /* AFSoundManager */,
+				620B30128B127E6B22E4228136336D6A /* AVOSCloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		616AA747B0A7E086F0DA9BD1C0FE0289 /* Pods-Stress */ = {
+			isa = PBXGroup;
+			children = (
+				66E30D7FEFA6CB45BA14CFA271BD25F2 /* Pods-Stress-acknowledgements.markdown */,
+				FF1FA304485F6FC7B2BA64B22D81D1A2 /* Pods-Stress-acknowledgements.plist */,
+				096551377444D5C74453F8ADF010B03C /* Pods-Stress-dummy.m */,
+				062744C2B3988A23851E47B281E8AB8D /* Pods-Stress-resources.sh */,
+				42E713005838ED3781B8F7CBD24280CE /* Pods-Stress.debug.xcconfig */,
+				9818D60C306499CDC056774E7785D012 /* Pods-Stress.release.xcconfig */,
+			);
+			name = "Pods-Stress";
+			path = "Target Support Files/Pods-Stress";
+			sourceTree = "<group>";
+		};
+		620B30128B127E6B22E4228136336D6A /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				A197134BC7CB0DC5CB345A47A73504BE /* AVACL.h */,
+				6BDAF96EA2669CA0CFBDA081AA9DAFCC /* AVAnalytics.h */,
+				1FF9E809CE8630D6C4A3CB605193F301 /* AVAnonymousUtils.h */,
+				7F55347C5636287653F4A1331C2062C0 /* AVCloud.h */,
+				727C80A8DCB1909A21770678D48879FA /* AVCloudQueryResult.h */,
+				D8D7C43F063038FDECE97521C93A8467 /* AVConstants.h */,
+				46582AF44DAAFFA4328B8DC398C24327 /* AVFile.h */,
+				7DE5C786FBC6B2C827AC9AA89628EB8A /* AVGeoPoint.h */,
+				A0852E37B49C69249EA7C216B7428C5E /* AVGroup.h */,
+				027B842B3D06BBF5AC7FD8D06C440003 /* AVHistoryMessage.h */,
+				3FEF930E21C5088AFB0E24A19B7204F0 /* AVHistoryMessageQuery.h */,
+				31596A156C7BC942A3962723B64C5265 /* AVInstallation.h */,
+				712DB9237C7F7C3E404B0B564D0EB194 /* AVLogger.h */,
+				44DB81D2B9CC96410BDFC4A4E76F44CF /* AVMessage.h */,
+				755C12DABD309FD1772A97AA1AD8D93B /* AVOSCloud.h */,
+				7991E0CBCD3D627039E1C123D9998EE4 /* AVObject.h */,
+				5588876E70CA893E25160DD112AF07FA /* AVObject+Subclass.h */,
+				6C86DD5A2DBE142A1707FA909A815F8D /* AVPush.h */,
+				6C5B94608441D2FB96A7FC91E5BE12EF /* AVQuery.h */,
+				0E33F70EAC9778DDD282882712412303 /* AVRelation.h */,
+				99DF5263CC208BBD2197BD0D3B2C3A56 /* AVRole.h */,
+				0C7AE74880F10BC080926419233BE93B /* AVSearchQuery.h */,
+				71D7E6ACB31D769A9D49D1A1548D8EFB /* AVSearchSortBuilder.h */,
+				64C21C276044655DE49C49ABE522BDD9 /* AVSession.h */,
+				5CE2A7F02A4924E89F5F3508791A6B07 /* AVSignature.h */,
+				C87DE1A55DA719E9296121BDE5D2E4BF /* AVStatus.h */,
+				5567AA83BC36A49B331E6AD0FD0B21A0 /* AVSubclassing.h */,
+				1F773719F66883A8EA742E06333DACB2 /* AVUser.h */,
+				EFB09316C43829DE5DB574BAD507E59B /* Frameworks */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				5F8B9A53AC7F6D4265503145BE28B3E0 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				2F480A364A4640A7E8AF425A816971AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B85B7785037F69B097D4B6AF5A9EB0A7 /* AFSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				78B857A264A4C7773DAF9E59CF894358 /* AFSoundItem.h */,
+				5902922F2DA2962C3AD7BE4B0C10298E /* AFSoundItem.m */,
+				9693E6181465F7B39231B824733DC356 /* AFSoundManager.h */,
+				4EBF29C349487C670D7137621FF1D8FB /* AFSoundPlayback.h */,
+				8E3AA0A7E6A029B1FF631CDF5B770B11 /* AFSoundPlayback.m */,
+				9F1024813D32AF8246FE5E6761FB73A3 /* AFSoundQueue.h */,
+				D8866174CC8944E681AC512D66B363AF /* AFSoundQueue.m */,
+				5255249CDB91ACE4A090CB21CEAB80D2 /* AFSoundRecord.h */,
+				30F4958F4F26E3322EDA1F5E196A6A70 /* AFSoundRecord.m */,
+				5D146C15B676193E035BF4A0B9D62A31 /* NSTimer+AFSoundManager.h */,
+				B47476144ABF3E67862A7DACD479107B /* NSTimer+AFSoundManager.m */,
+				E74A7584B7CCF03C91B0F72301B39DA9 /* Support Files */,
+			);
+			path = AFSoundManager;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14844949F144D8D8015D0425611B7F0E /* libAFSoundManager.a */,
+				CC42AF592025C0D746FD29B50F6398C7 /* libPods-Stress.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74A7584B7CCF03C91B0F72301B39DA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25AD2F76AA58FDAAAE3C5938099B0091 /* AFSoundManager.xcconfig */,
+				F5BF6CAE759B0F943D4CE8631C1D4638 /* AFSoundManager-Private.xcconfig */,
+				A4BE808BD08C17D987CB306FA7817EFF /* AFSoundManager-dummy.m */,
+				C44F549EC5B55BB69B3825851096BD88 /* AFSoundManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFSoundManager";
+			sourceTree = "<group>";
+		};
+		EFB09316C43829DE5DB574BAD507E59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AD75F25D3A5C58844613866F2C1B33 /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52038A874EAB643160EC7D87B23ADDE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A3D15459D7F4F2BAFD7B42C234BDAC /* AFSoundItem.h in Headers */,
+				2DC22FC74BECA5DB7E691F1D6FABA78B /* AFSoundManager.h in Headers */,
+				A05880537B29E74F05187A7F16849CB7 /* AFSoundPlayback.h in Headers */,
+				4B6552A6BFD73165E4F9470BC3BBDDFB /* AFSoundQueue.h in Headers */,
+				D206EF03837D351B80FD2124EE355ACD /* AFSoundRecord.h in Headers */,
+				75DCFFA4D9E31A78E3F92FB2C68B3447 /* NSTimer+AFSoundManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42DA2ECA424B8EEBF4738A6091F3A079 /* Pods-Stress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738D26D14BE6CE0CA24F88ECAD240483 /* Build configuration list for PBXNativeTarget "Pods-Stress" */;
+			buildPhases = (
+				CCEBA45C75EAC456604FA8F8CCC19EBF /* Sources */,
+				410FCBD1C9709C2B8C5DBB40DC71E583 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B28D0FE335972694F9EE4614EACDD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Stress";
+			productName = "Pods-Stress";
+			productReference = CC42AF592025C0D746FD29B50F6398C7 /* libPods-Stress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E6F256DCBD345BA69BBFB5186D533CB /* AFSoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E61401CC6A0D5CC1835BE0AE3A8803 /* Build configuration list for PBXNativeTarget "AFSoundManager" */;
+			buildPhases = (
+				FFB0319700AF1025711383CB437127FC /* Sources */,
+				074F153FBF8CD7244BA5927427A51FF2 /* Frameworks */,
+				52038A874EAB643160EC7D87B23ADDE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFSoundManager;
+			productName = AFSoundManager;
+			productReference = 14844949F144D8D8015D0425611B7F0E /* libAFSoundManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6F256DCBD345BA69BBFB5186D533CB /* AFSoundManager */,
+				42DA2ECA424B8EEBF4738A6091F3A079 /* Pods-Stress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEBA45C75EAC456604FA8F8CCC19EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565ADC9564DDE9FD646F26FF3A4D5197 /* Pods-Stress-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB0319700AF1025711383CB437127FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E14C0B7D899597B77FDD0387C04F971 /* AFSoundItem.m in Sources */,
+				0C6CC63008315E9D400C928C9A820508 /* AFSoundManager-dummy.m in Sources */,
+				DE028F0F259D5C1235AFE6161BD5EA73 /* AFSoundPlayback.m in Sources */,
+				D73DBDBCA2A79DFF33CC33EC5534AB51 /* AFSoundQueue.m in Sources */,
+				8E2B4FA60D62F2A13B84E863FB5986DB /* AFSoundRecord.m in Sources */,
+				6998A978FD9F16B7967E189818007D14 /* NSTimer+AFSoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B28D0FE335972694F9EE4614EACDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFSoundManager;
+			target = 8E6F256DCBD345BA69BBFB5186D533CB /* AFSoundManager */;
+			targetProxy = C31E2AED4EB4F9DBFA8296B10CEE2159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		398F1CB7425D9A1FC6BDD4888E4F896D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF6CAE759B0F943D4CE8631C1D4638 /* AFSoundManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFSoundManager/AFSoundManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76D64D88535178EA792BE530514F776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E713005838ED3781B8F7CBD24280CE /* Pods-Stress.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97F2F8BDF0E3A1DC4E8D2343817F5515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BF6CAE759B0F943D4CE8631C1D4638 /* AFSoundManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFSoundManager/AFSoundManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D418A19352919AFAA59ABA2E6DFB83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9818D60C306499CDC056774E7785D012 /* Pods-Stress.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738D26D14BE6CE0CA24F88ECAD240483 /* Build configuration list for PBXNativeTarget "Pods-Stress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D64D88535178EA792BE530514F776D /* Debug */,
+				D418A19352919AFAA59ABA2E6DFB83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E61401CC6A0D5CC1835BE0AE3A8803 /* Build configuration list for PBXNativeTarget "AFSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398F1CB7425D9A1FC6BDD4888E4F896D /* Debug */,
+				97F2F8BDF0E3A1DC4E8D2343817F5515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
